@@ -1,0 +1,38 @@
+syntax = "proto3";
+
+package electiondata;
+
+// Nachricht für Kandidaten
+message Candidate {
+  int32 listnumber = 1;
+  string name = 2;
+  int32 votes = 3;
+}
+
+// Nachricht für Parteien
+message Party {
+  string partyID = 1;
+  int32 amountVotes = 2;
+  repeated Candidate preferedVotes = 3;
+}
+
+// Nachricht für Wahlregion
+message ElectionData {
+  int32 regionID = 1;
+  string regionName = 2;
+  string regionAddress = 3;
+  int32 regionPostalCode = 4;
+  string federalState = 5;
+  string timestamp = 6;
+  repeated Party countingData = 7;
+}
+
+// gRPC-Dienst für die Übertragung von ElectionData
+service ElectionService {
+  rpc SendElectionData (ElectionData) returns (ElectionResponse);
+}
+
+// Antwortnachricht
+message ElectionResponse {
+  string confirmation=1;
+}

@@ -1,0 +1,115 @@
+<electionData>
+    <regionID>30711</regionID>
+    <regionName>Maria Ellend</regionName>
+    <regionAddress>Kulturplatz 1</regionAddress>
+    <regionPostalCode>2402</regionPostalCode>
+    <federalState>Austria</federalState>
+    <timestamp>%(timestamp)s</timestamp>
+    <countingData>
+    <party>
+        <partyID>OEVP</partyID>
+        <amountVotes>1000</amountVotes>
+        <preferedVotes>
+            <candidate>
+                <listnumber>1</listnumber>
+                <name>Karner Gerhard</name>
+                <votes>500</votes>
+            </candidate>
+            <candidate>
+                <listnumber>2</listnumber>
+                <name>Tanner Klaudia</name>
+                <votes>250</votes>
+            </candidate>
+            <candidate>
+                <listnumber>3</listnumber>
+                <name>Servus Harald</name>
+                <votes>250</votes>
+            </candidate>
+        </preferedVotes>
+    </party>
+    <party>
+        <partyID>SPOE</partyID>
+        <amountVotes>750</amountVotes>
+        <preferedVotes>
+            <candidate>
+                <listnumber>1</listnumber>
+                <name>Silvan Rudolf</name>
+                <votes>250</votes>
+            </candidate>
+            <candidate>
+                <listnumber>2</listnumber>
+                <name>Kumpan-Takacs Silvia</name>
+                <votes>250</votes>
+            </candidate>
+            <candidate>
+                <listnumber>3</listnumber>
+                <name>Laimer Robert</name>
+                <votes>250</votes>
+            </candidate>
+        </preferedVotes>
+    </party>
+    <party>
+        <partyID>FPOE</partyID>
+        <amountVotes>500</amountVotes>
+        <preferedVotes>
+            <candidate>
+                <listnumber>1</listnumber>
+                <name>Kickl Herbert</name>
+                <votes>250</votes>
+            </candidate>
+            <candidate>
+                <listnumber>2</listnumber>
+                <name>Schnedlitz Michael</name>
+                <votes>125</votes>
+            </candidate>
+            <candidate>
+                <listnumber>3</listnumber>
+                <name>Hafenecker Christian</name>
+                <votes>125</votes>
+            </candidate>
+        </preferedVotes>
+    </party>
+    <party>
+        <partyID>GRUENE</partyID>
+        <amountVotes>200</amountVotes>
+        <preferedVotes>
+            <candidate>
+                <listnumber>1</listnumber>
+                <name>Götze Elisabeth</name>
+                <votes>100</votes>
+            </candidate>
+            <candidate>
+                <listnumber>2</listnumber>
+                <name>Zorba Süleyman</name>
+                <votes>50</votes>
+            </candidate>
+            <candidate>
+                <listnumber>3</listnumber>
+                <name>Fischer Ulrike</name>
+                <votes>50</votes>
+            </candidate>
+        </preferedVotes>
+    </party>
+    <party>
+        <partyID>NEOS</partyID>
+        <amountVotes>75</amountVotes>
+        <preferedVotes>
+            <candidate>
+                <listnumber>1</listnumber>
+                <name>Scherak Nikolaus</name>
+                <votes>25</votes>
+            </candidate>
+            <candidate>
+                <listnumber>2</listnumber>
+                <name>Von Künsberg Sarre Martina</name>
+                <votes>25</votes>
+            </candidate>
+            <candidate>
+                <listnumber>3</listnumber>
+                <name>Auinger-Oberzaucher Gertraud</name>
+                <votes>25</votes>
+            </candidate>
+        </preferedVotes>
+    </party>
+    </countingData>
+</electionData>
